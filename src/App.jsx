@@ -26,13 +26,17 @@ const options = {
 }
 
 function App() {
+  const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('');
   const [count, setCount] = useState(0)
   const [searchTerm, setSearchTerm] = useState('')
+
   const [movieList, setMovieList] = useState([])
-  const [trendingMovies, setTrendingMovies] = useState([])
-  const [loading, setLoading] = useState(false)
   const [errorMessage, setErrorMessage] = useState(null)
-  const [debouncedSearchTerm, setDebouncedSearchTerm] = useState('');
+  const [loading, setLoading] = useState(false)
+  
+  
+
+  const [trendingMovies, setTrendingMovies] = useState([])
 
 
   useDebounce(() => {
