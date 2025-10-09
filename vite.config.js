@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/Webgem-MovieApp/', // 👈 this must match your repo name
+  base: '/webgem-movie-project/', // 👈 this must match your repo name
 })

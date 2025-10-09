@@ -1,6 +1,6 @@
 {
-  "homepage": "https://samuelechi.github.io/Webgem-MovieApp",
   "name": "my-movie-project",
+  "homepage": "https://samuelechi.github.io/webgem-movie-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
